@@ -26,3 +26,6 @@ echo '--------------------------------------------------------------------------
 echo ' - Restarting the Apache Service                                                      - '
 echo '----------------------------------------------------------------------------------------'  
 service apache2 restart
+clear
+echo ' '
+echo 'Hit any key to quit..' 
