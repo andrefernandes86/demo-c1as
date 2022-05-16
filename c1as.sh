@@ -27,6 +27,3 @@ echo ' - Restarting the Apache Service                                          
 echo '----------------------------------------------------------------------------------------'  
 service apache2 restart
 clear
-ps -eo comm,etime,user | grep httpd
-ps -eo comm,etime,user | grep apache2
-
