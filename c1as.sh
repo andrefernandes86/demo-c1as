@@ -28,5 +28,6 @@ echo '--------------------------------------------------------------------------
 service apache2 restart
 clear
 echo ' '
-read -p "Press any key to continue.."
+ps -eo comm,etime,user | grep httpd
+ps -eo comm,etime,user | grep apache2
 
