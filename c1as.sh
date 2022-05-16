@@ -10,4 +10,3 @@ echo "trend_app_protect.key = $C1ASKey" >> /etc/php/7.0/apache2/php.ini
 echo "trend_app_protect.secret = $C1ASSecret" >> /etc/php/7.0/apache2/php.ini
 
 service apache2 restart
-
