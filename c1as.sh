@@ -28,4 +28,5 @@ echo '--------------------------------------------------------------------------
 service apache2 restart
 clear
 echo ' '
-echo 'Hit any key to quit..' 
+read -p "Press any key to continue.."
+
